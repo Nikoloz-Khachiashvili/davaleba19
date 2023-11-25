@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@200;500&family=Barlow:wght@400;700&family=Kumbh+Sans:wght@300;400;700&family=Open+Sans:ital@1&family=Outfit:wght@700&family=Red+Hat+Text:wght@300;400&family=Space+Mono&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: linear-gradient(180deg, #1D1E28 0.12%, #261C2D 94.84%, #261A2D 100%);
+    height: 100vh;
+    width: 375px;
+    padding-top: 142px;
+}
+
+.stars{
+    position: absolute;
+    z-index: -2;
+}
+
+footer{
+    display: flex;
+    flex-direction: row;
+    column-gap: 30px;
+    margin-top: 390px;
+}
+
+.facebook:hover,.pinterest:hover,.instagram:hover{
+    cursor: pointer;
+    filter: invert(60%) sepia(43%) saturate(6017%) hue-rotate(315deg) brightness(109%) contrast(97%);
+}
+
+
+.mountains{
+    display: none;
+}
+
+.mountains-mob{
+    position: absolute;
+    z-index: -1;
+    bottom: 0;
+    left: 0;
+    
+}
+
+.title{
+    color: #FFF;
+    text-align: center;
+    font-family: Red Hat Text;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 6.136px;
+    text-transform: uppercase;
+    width: 327px;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    row-gap: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+.flip-book{
+    display: flex;
+    flex-direction: row;
+}
+
+.flip-digit{
+    color: #FB5E84;
+    text-align: center;
+    font-family: Red Hat Text;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 71px; /* 197.222% */
+    letter-spacing: -1.08px;
+}
+
+
+
+
+
+
+
+.flip-label{
+    color: #8385A9;
+    text-align: center;
+    font-family: Red Hat Text;
+    font-size: 7px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 2.959px;
+    width: 70px;
+    height: 12px;
+    flex-shrink: 0;
+}

@@ -1,0 +1,49 @@
+@media(width>=1440px){
+    body{
+        padding-top: 132px;
+    }
+
+    .mountains{
+        display: block;
+        position: absolute;
+        bottom: 0;
+        size: 100%;
+
+        z-index: -2;
+    }
+
+    .title{
+        width: 1000px;
+    }
+
+    .flip-book{
+        margin-left: -10px;
+        column-gap: 60px;
+        margin-top: 100px;
+    }
+    main{
+        margin-left: 775px ;
+    }
+
+    .mountains-mob{
+        display: none;
+    }
+
+    .stars{
+        margin-left: 130px;
+    }
+
+    footer{
+        margin-top: 390px;
+        margin-left: -20px
+    }
+
+    .flip-digit{
+        font-size: 80px;
+        margin-bottom: 20px;
+    }
+
+    .flip-label{
+        font-size: 18px;
+    }
+}
