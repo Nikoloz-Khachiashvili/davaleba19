@@ -30,6 +30,9 @@
     }
 
     .stars{
+        display: block;
+        position: absolute;
+        z-index: -2;
         margin-left: 130px;
     }
 
